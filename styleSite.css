@@ -1,0 +1,1216 @@
+html{
+  height:100%;
+}
+body
+{
+  height:100%;
+  margin:0;
+}
+            * {
+                margin: 0;
+                padding: 0;
+            }
+a{
+  color:white;
+}
+#wrapper {
+                position: fixed;
+                height: 40px;
+                height: 40px;
+                height: 4 0px;
+                width: 100%;
+                z-index: 99999;
+                background: rgb(90, 86, 86);
+            }
+            
+            #nav {
+                list-style: none;
+                float: right;
+                position: relative;
+            }
+            #nav li {
+                float: left;
+                display: block;
+                height: 40px;
+                width: 100px;
+                text-align: center;
+                line-height: 40px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                color: white ;
+            }
+            #span {
+              display: none;
+                height: 5px;
+                width: 100px;
+                background: white ;
+                position: absolute;
+                bottom: 0;
+                
+            }
+            
+/*
+#nav-bar{
+  position:fixed;
+   color:#fff;
+  right:0;
+  top:0;
+  width:100%;
+  z-index:100;
+  background-color:#252525;
+}
+#nav-bar a:nth-child(1){
+  margin-left:20%;
+}
+#nav-bar a{
+  display:inline-block;
+  text-decoration:none;
+  position:relative;
+  margin-left:30px;
+  height:80%;
+}
+
+#nav-bar a:visited,#nav-bar a:active,#nav-bar a:link{
+  text-decoration:none;
+  font-family:'Open Sans';
+  font-size:1.1em;
+  letter-spacing:0px;
+  font-weight:300; 
+}
+.selected{
+  color:darkorange;
+}
+#nav-bar a:hover{
+  color:orange;
+  
+}
+#social-media i{
+  color:rgba(255,255,255,1);
+  display:inline-block;
+  font-size:1.5em;
+  position:relative;
+  margin-left:15px;
+  margin-right:15px;
+}
+#social-media i:hover{
+  text-shadow:0 0 5px darkorange;
+  cursor:pointer;
+}
+#social-media{
+  display:block;
+  width:40%;
+  height:20%;
+  margin:0;
+  z-index:99;
+  position:absolute;
+  left:30%;
+  text-align:center;
+  top:5%;
+}*/
+.holder
+{
+ 
+  position:relative;
+}
+#box0{
+  height:100%;
+  
+}
+
+
+#box2,#box3,#box4,#box5,#box6{
+ 
+  position:relative;
+  height:100%;
+}
+#box7{
+	position: relative;
+	height:30px; 
+}
+.home{
+  background-image:url('http://www.mcm2009.info/images/P1040565.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+#opacity-cover{
+  position:absolute;
+  height:100%;
+  width:100%;
+  opacity:0.4;
+  background:#000;
+}
+.home{
+  height:100%;
+  position:relative;
+}
+.about{
+  height:150%;
+  padding-bottom: 23%;
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+
+.about,.events,.schedule,.sponsors,.gallery
+{
+  height:150%;
+  
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+.team
+{
+height:180%;
+  
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+.speakers
+{
+  height:180%;
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+.location
+{
+  height:100%;
+  
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+#date-heading{
+  letter-spacing:0px;
+  position:absolute;
+  width:36%;
+  text-align:center;
+  color:#fff;
+  
+  font-size:22px;
+  font-weight:300;
+  left:32%;
+  top:-20px;
+  margin:0;
+
+}
+#date-heading:before,#date-heading:after
+{
+  content:'';
+  position:absolute;
+  width:50%;
+  height:1px;
+  background:#fff;
+  top:50%;
+  box-shadow:0 0 2px 1px rgba(0,0,0,0.6);
+  
+}
+#date-heading:before{
+  left:-50%;
+}
+#date-heading:after{
+  right:-50%;
+}
+#main-heading{
+  color:#fff;
+  font-family:'Lato';
+  letter-spacing:10px;
+  font-weight:900;
+  font-size:6em;
+  width:90%;
+  position:absolute;
+  left:5%;
+  margin:0;
+  text-align:center;
+  top:35%;
+  padding:0;
+  
+}
+#tagline-heading{
+  display:block;
+  color:#fff;
+  letter-spacing:0;
+  font-size:24px;
+  
+  font-weight:300;
+  position:absolute;
+  text-align:center;
+  left:10%;
+  bottom:-40px;
+  width:80%;
+  height:40%;
+}
+#about-heading{
+  margin:0;
+  
+  width:80%;
+  position:absolute;
+  left:10%;
+  top:5%;
+  font-size:2.6em;
+  font-family:'Open Sans';
+  text-align:center;
+  font-weight:300;
+  color:rgba(0,0,0,0.9);
+}
+#about-heading i{
+  
+  position:absolute;
+  display:block;
+  color:#FE5421;
+  width:4%;
+  height:50%;
+  left:48%;
+  font-size:0.9em;
+  top:-40%;
+  transition: all 300ms ease-in;
+}
+#about-heading i:hover{
+  text-shadow:0 0 50px yellow;
+}
+#about-heading #sub-heading{
+  width:100%;
+  font-size:0.4em;
+ 
+  color:rgba(0,0,0,0.8);
+}
+#about-content{
+  height:50%;
+  width:60%;
+  position:absolute;
+  text-align:center;
+
+  top:14%;
+  left:20%;
+}
+
+#icon-bar hr{
+  
+  background:#252525;
+ position:absolute;
+  width:100%;
+  bottom:-110%;
+}
+#triangle{
+  
+  width:10px;
+  height:10px;
+  border-bottom:1px solid #252525;
+  border-left:1px solid #252525;
+  border-right:1px solid white;
+  border-top:1px solid white;
+  position:absolute;
+  bottom:-25px;
+  left:20%;
+  background:#fff;
+  -webkit-transform:rotate(-45deg);
+}
+#icon-bar i:after{
+  content:'';
+  display:block;
+  position:absolute;
+  
+}
+#icon-bar{
+  
+  width:100%;
+  position:absolute;
+  top:30px;
+  text-align:left;
+  font-family:'Open Sans';
+  font-weight:300;
+  font-size:1.3em;
+  color:#252525;
+}
+.icon{
+  display:inline-block;
+  width:25%;
+  margin:0;
+  text-align:center;
+  height:40%;
+  position:relative;
+  top:30%;
+
+  
+}
+.icon-holder{
+  position:relative;
+  width:20%;
+  
+  left:20%;
+  color:#FE5421;
+}
+.icon-holder i{
+  font-size:200%;
+}
+.icon span:nth-child(1){
+
+  position:relative;
+  left:10%;
+}
+.icon span:nth-child(2){
+  position:relative;
+  left: 0px;
+}
+.icon span:nth-child(3)
+{
+  position:relative;
+  left:30%;
+}
+#icon-bar:hover
+{
+  cursor:pointer;
+}
+#about-main-content #first-section,#about-main-content #second-section,#about-main-content #third-section{
+  width:50%;
+  position:absolute;
+  height:40%;
+  /*border:1px solid red;*/
+  left:25%;
+  top:35%;
+  font-family:'Open Sans';
+  text-align:justify;
+  font-size:16px;
+  color:#00308F ;
+ /* overflow:hidden;*/
+}
+#first-section{
+  /*background:yellow;*/
+  z-index:99;
+}
+#second-section{
+ /* background:red;*/
+  z-index:98;
+  
+}
+#third-section{
+  /*background:green;*/
+  z-index:97;
+  
+}
+#about-footer{
+  position:absolute;
+  height:20%;
+  background-image:url('http://static.learnof.com/learnof/ImageUploads/institute-gallery/original/12786_DrBRAmbedkarNationalInstituteofTechnologyNITJalandhar_1413346600_original.jpg');
+  width:100%;
+  bottom:20px;
+ background-size:100% 100%; 
+  background-position: 0px 0px;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+#about-opacity-cover
+{
+  text-align:center;
+  width:100%;
+  height:100%;
+  background:#252525;
+  opacity:0.9;
+  z-index:999;
+  font-size:5em;
+  color:rgba(215, 81, 0, 1);
+  font-family:'Open Sans';
+  font-weight:300;
+  position:absolute;
+}
+#hours,#nits,#speakers
+{
+  position:absolute;
+  top:15%;
+}
+#hours
+{
+  left:23%;
+}
+#hours:after
+{
+  content:'Hours';
+  position:absolute;
+  width:100%;
+  height:20%;
+  top:87%;
+  left:-11%;
+  color:#fFf;
+  font-size:22px;
+}
+#nits
+{
+  left:48%;
+}
+#nits:after
+{
+  content:'NITs';
+  position:absolute;
+  width:100%;
+  height:20%;
+  top:87%;
+  left:-8%;
+  color:#fFf;
+  font-size:22px;
+}
+#speakers
+{
+  left:73%;
+}
+#speakers:after
+{
+  content:'Speakers';
+  position:absolute;
+  width:400%;
+  height:20%;
+  top:87%;
+  left:-120%;
+  color:#fFf;
+  font-size:22px;
+}
+#opacity-footer
+{
+  font-family:'Open Sans';
+  text-align:center;
+   font-size:24px;
+  color:#fff;
+  width:80%;
+  margin:auto;
+  position:absolute;
+  left:11%;
+  bottom:10%;
+}
+.side-image
+{
+  position:absolute;
+  width:40%;
+  height:100%;
+  left:0;
+  
+}
+.side-content
+{
+  
+ height:100%;
+  position:absolute;
+  width:60%;
+  right:0;
+}
+#arrow-icon{
+  position:absolute;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  height:5%;
+  color:darkorange;
+  font-size:2.5em;
+  
+  top:5%;
+}
+.tcover
+{
+  background:rgba(209, 78, 0, 0.6);
+}
+
+#map-canvas
+{
+  height:70%;
+  width:70%;
+  position:absolute;
+  left:15%;
+  top:15%;
+  border:5px dashed grey;
+  z-index:999;
+}
+.galleria
+{
+  z-index:999;
+  height:70%;
+  width:60%;
+  top:20%;
+  position:absolute;
+  left:20%;
+  bottom:20%;
+}
+.opcover
+{
+  position:absolute;
+  opacity:0.9;
+  z-index:99;
+  width:100%;
+  height:100%;
+}
+.gcover
+{
+  background-image:-webkit-linear-gradient(#2e2a29,#2e2a29);
+}
+.lcover
+{
+  
+  background:rgba(100, 52, 26, 0.9);
+}
+.location
+{
+  background-image:url('http://www.iconsfind.com/wp-content/uploads/2014/04/20140425_5359bfc590449.png');
+  background-repeat:repeat-x;
+  background-size:100px 200px;
+  background-position:center;
+}
+.gallery,.schedule,.speakers
+{
+  
+  background-image:url('http://www.iconsfind.com/wp-content/uploads/2014/04/20140425_5359bfc590449.png');
+  background-repeat:repeat-x;
+  background-size:100px 250px;
+  background-position:center;
+}
+.update
+{
+display:block;
+position:absolute;
+width:100%;
+height:400px;
+text-align:center;
+line-height:400px;
+z-index:999;
+font-family:'Open Sans','Oswald','Lato','Arial';
+font-size:72px;
+top:20%;
+color:#fff;
+}
+.team
+{
+  background:url('http://backgrounds-free.com/highresolution/l_187.png');
+}
+#loading-page{
+  
+  background-image:-webkit-radial-gradient(#2D2E46, #2D281F);
+  background-image:-moz-radial-gradient(#2D2E46, #2D281F);
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  border:0;
+  position:fixed;
+  z-index:99999;
+}
+#loading-bar div{
+  display:inline-block;
+  color:white;
+  font-size:4em;
+  font-family:'Oswald';
+  font-stretch:expanded;
+}
+
+  #loading-bar{
+  position:absolute;
+   left:40%;
+    top:40%;
+  }
+#loading-bar div:nth-child(1){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:0;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:0;
+  -o-animation:textGlow 1400ms infinite;
+  -o-animation-delay:0;
+}
+#loading-bar div:nth-child(2){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:100ms;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:100ms;
+  -o-animation:textGlow 1400ms infinite;
+  -o-animation-delay:100ms;
+}
+#loading-bar div:nth-child(3){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:200ms;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:200ms;
+  -o-animation:textGlow 1400ms infinite;
+  -o-animation-delay:200ms;
+}
+#loading-bar div:nth-child(4){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:300ms;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:300ms;
+  -o-animation:textGlow 1400ms infinite;
+  -o-animation-delay:300ms;
+}
+#loading-bar div:nth-child(5){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:400ms;
+  
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:400ms;
+  -o-animation:textGlow 1400ms infinite;
+ -o-animation-delay:400ms;
+}
+#loading-bar div:nth-child(6){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:500ms;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:500ms;
+  -o-animation:textGlow 1400ms infinite;
+ -o-animation-delay:500ms;
+}
+#loading-bar div:nth-child(7){
+  -webkit-animation:textGlow 1400ms infinite;
+  -webkit-animation-delay:600ms;
+  -moz-animation:textGlow 1400ms infinite;
+  -moz-animation-delay:600ms;
+  -o-animation:textGlow 1400ms infinite;
+ -o-animation-delay:600ms;
+}
+@-webkit-keyframes textGlow{
+  0%{
+    text-shadow:0 0 0 0;
+  }
+  50%{
+    text-shadow: 0 0 20px #fff;
+  }
+  100%{
+    text-shadow:0 0 0 0;
+  }
+}
+@-moz-keyframes textGlow{
+  0%{
+    text-shadow:0 0 0 0;
+  }
+  50%{
+    text-shadow: 0 0 20px #fff;
+  }
+  100%{
+    text-shadow:0 0 0 0;
+  }
+}
+.team-line
+{
+z-index:999;
+position:absolute;
+width:100%;
+height:20%;
+}
+.team-line ul{
+text-align:center;
+}
+.team-line li{
+list-style:none;
+display:inline-block;
+position:relative;
+width:200px;
+height:200px;
+background:white;
+border-radius:50%;
+margin-right:5%;
+}
+
+.row-one
+{
+
+top:7%;
+}
+.row-two
+{
+top:40%;
+}
+
+.row-three
+{
+
+top:70%;
+}
+.team-tex{
+
+text-align: center;
+font-size: 3em;
+color:white;
+font-family:Arial;
+position:relative;
+top:-60px;
+}
+.team-sch{
+
+text-align: center;
+color:black;
+font-family:Arial;
+position:relative;
+top:10px;
+z-index: 999;
+list-style: none;
+}
+
+.row-one li:nth-child(1)
+{
+background-image:url('images/Jay Bulani.jpg');
+background-position: -30px -80px;
+background-size: 350px 410px;
+}
+.row-one li:nth-child(2)
+{
+background-image:url('images/Himanshu Sharma Co Convener Web and Marketing.jpg');
+background-position: -140px -60px;
+background-size: 420px 420px;
+}
+.row-one li:nth-child(3)
+{
+background-image:url('images/Monarchlakhanpal.JPG');
+background-position: -50px -5px;
+background-size: 250px 270px;
+}
+.row-one li:nth-child(4)
+{
+background-image:url('images/Nikunj Garg Co Convener(Finance).jpg');
+background-position: -130px -85px;
+background-size: 450px 470px;
+}
+.row-two li:nth-child(1)
+{
+background-image:url('images/Sahil Kumar Co Convener Hospitality (2).jpg');
+background-position: -230px -154px;
+background-size: 750px 550px;
+}
+.row-two li:nth-child(2)
+{
+background-image:url('images/Neha Mishra Head Marketing.jpg');
+background-position: -40px 0px;
+background-size: 300px 300px;
+}
+.row-two li:nth-child(3)
+{
+background-image:url('images/Kanwar gaurav Head Hospitality (2).jpg');
+background-position: -10px -15px;
+background-size: 250px 270px;
+}
+.row-two li:nth-child(4)
+{
+background-image:url('images/Sahil Pareek Head,Event Management.jpg');
+background-position: -55px -35px;
+background-size: 452px 370px;
+}
+.row-three li:nth-child(1)
+{
+background-image:url('images/Shubham Sharma Head Event Management.jpg');
+background-position: -30px -5px;
+background-size: 250px 270px;
+}
+.row-three li:nth-child(2)
+{
+background-image:url('images/Richra Gandhi Head Hospitality.jpeg');
+background-position: -20px -5px;
+background-size: 250px 270px;
+}
+.row-three li:nth-child(3)
+{
+background-image:url('images/DSCN0195.JPG');
+background-position: -100px -85px;
+background-size: 350px 370px;
+}
+.row-three li:nth-child(4)
+{
+background-image:url('images/Nikunj Garg Co Convener(Finance).jpg');
+background-position: -50px -5px;
+background-size: 250px 270px;
+}
+.designation
+{
+color:#fff;
+font-family:'Open Sans';
+width:100%;
+text-align:center;
+left:0;
+top:220px;
+position:relative;
+text-decoration: none;
+}
+.credit a
+{
+display:inline-block;
+height:15px;
+line-height:15px;
+color:#fff;
+font-family:'Open Sans','Arial';
+}
+.credit
+{
+font-size:12px;
+position:absolute;
+z-index:999;
+width:100%;
+height:25px;
+text-align:center;
+font-family:'Open Sans','Oswald','Lato','Arial';
+background:#252525;
+color:#fff;
+bottom:0;
+}
+.team-speaker
+{
+z-index:999;
+position:absolute;
+width:100%;
+height:20%;
+}
+
+.team-speaker ul{
+text-align:center;
+}
+
+.team-speaker li{
+list-style:none;
+display:inline-block;
+position:relative;
+width:200px;
+height:200px;
+background:white;
+border-radius:50%;
+margin-right:5%;
+
+}
+.row-first
+{
+top:10%;
+}
+.row-second
+{
+top:40%;
+}
+.row-third
+{
+top:70%;
+}
+.row-first li:nth-child(1)
+{
+background-image:url('images/Rahul Gupta.jpg');
+background-position: -10px 0px;
+background-size: 200px 200px;
+}
+.row-first li:nth-child(2)
+{
+background-image:url('images/Nizam.jpg');
+background-position: -10px -5px;
+background-size: 200px 200px;
+}
+.row-first li:nth-child(3)
+{
+background-image:url('images/ankit tanmay mishra.jpg');
+background-position: 10px 0px;
+background-size: 175px 200px;
+}
+.row-second li:nth-child(1)
+{
+background-image:url('images/NitinTailor.png');
+background-position: -5px -5px;
+background-size: 200px 200px;
+}
+.row-second li:nth-child(2)
+{
+background-image:url('images/Naveen Garg.jpg');
+background-position: -30px -10px;
+background-size: 230px 300px;
+background-repeat:none;
+}
+.row-second li:nth-child(3)
+{
+background-image:url('images/Paritosh_Lokhande.jpg');
+background-position: -50px -45px;
+background-size: 300px 300px;
+}
+.row-third li:nth-child(1)
+{
+background-image:url('images/Ishu.png');
+background-position: -50px -5px;
+background-size: 300px 300px;
+}
+
+.
+{
+height:180%;
+  
+  margin:0;
+  z-index:9;
+  position:relative;
+}
+.popupInfo{
+  background-color: white;
+  display: none;
+  padding: 15px;
+  border: 1px solid #1852fd;
+  float: left;
+  font-size: 1em;
+  position: fixed;
+  top: 55%;
+  left: 40%;
+  right: 20%;
+  margin: -100px 0 0 -100px;
+  z-index: 9999;
+  box-shadow: 0px 0px 4px #1852fd;
+  -moz-box-shadow: 0px 0px 4px #1852fd;
+  -webkit-box-shadow: 0px 0px 4px #1852fd;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#mask{
+  display: none;
+  background: #000;
+  position: fixed;
+  left:0;
+  top: 0;
+  z-index: 8888;
+  width: 100%;
+  height: 100%;
+  opacity: 0.80;
+}
+
+#close-button
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+.extra{
+  opacity: .01;
+}
+#close-button-nizam
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+#close-button-tanmay
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+
+#close-button-paritosh
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+
+#close-button-nitin
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+#close-button-naveen
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+#close-button-arpit
+{
+  cursor: pointer;
+  width: 15px;
+  text-align: center;
+  line-height: 15px;
+  background: #000;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  box-shadow: 0 0 20px #777;
+  -o-box-shadow: 0 0 20px #777;
+  -moz-box-shadow: 0 0 20px #777;
+  -mx-box-shadow: 0 0 20px #777;
+  -webkit-box-shadow: 0 0 20px #777;
+  position: absolute;
+  top:-10px;
+  right: -10px;
+  border: solid 1px #fff;
+}
+body {
+    background: #fafafa;
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+}
+.tab-panels{
+  margin:0;
+  
+  width:80%;
+  position:absolute;
+  left:10%;
+  font-size:1.2em;
+  font-family:'Open Sans';
+  text-align:center;
+  font-weight:300;
+  color:rgba(0,0,0,0.9);
+  
+  top:200px; 
+}
+
+.tab-panels ul {
+    margin: 0;
+    padding: 0;
+}
+.tab-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: #999;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 20;
+    cursor: pointer;
+
+
+}
+.tab-panels ul li:hover {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels ul li.active {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels .panel {
+    display:none;
+    background: #e8e7e7;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tab-panels .panel.active {
+    display:block;
+}
+
+table{
+  margin-left: 30px;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2em;
+  
+}
+th{
+  text-align: center;
+   padding: 5px 5em  5px 0.5em;
+   background-color: #ffc;
+   border-top: 1px solid #FB7A31;
+   border-bottom: 1px solid #FB7A31;
+}
+td{
+  text-align: left;
+ padding: 3px;
+ padding: 5px 2em  2px 0.5em;
+  border-bottom:  solid 1px #ccc;
+  color: white;
+
+}
+#list{
+  list-style: none;
+  position: absolute;
+  
+  float: right;
+}
+#list li{
+  float: left;
+  display: block;
+  margin-top: 100px;
+  margin-left: 135px;
+}
+#list li:nth-child(2){
+  margin-left: 200px;
+  margin-top: 83px;
+}
+.sch-text{
+    text-align: center;
+color:white;
+font-size: 3em;
+font-family:Arial;
+position:relative;
+top:40px;
+z-index: 999; 
+}
