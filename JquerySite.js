@@ -1,10 +1,3 @@
-Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/themes/classic/galleria.classic.min.js');
-            Galleria.run('.galleria');
-Galleria.configure({
-    transition: 'fade',
-    imageCrop: true,
-  autoplay:2000
-});
 $("#social-media").hide();
 $("#second-section").hide();
 $("#third-section").hide();
@@ -93,7 +86,8 @@ $('a[href^="#"]').on('click', function(event) {
     }
 
 });*/
-/*For animating the arrow and choosing the subsection
+/*
+For animating the arrow and choosing the subsection
 $("#icon-bar .one").click(function(){
   //hide second and third subsections
     $("#second-section").fadeOut();
@@ -170,7 +164,7 @@ function element(){
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
-          center: new google.maps.LatLng(31.39684, 75.53251),
+          center: new google.maps.LatLng(22.250636, 84.902748),
           zoom: 15,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }

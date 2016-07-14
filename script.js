@@ -1,10 +1,10 @@
-Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/themes/classic/galleria.classic.min.js');
+/*Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/themes/classic/galleria.classic.min.js');
             Galleria.run('.galleria');
 Galleria.configure({
     transition: 'fade',
     imageCrop: true,
   autoplay:2000
-});
+});*/
 $("#social-media").hide();
 $("#second-section").hide();
 $("#third-section").hide();
