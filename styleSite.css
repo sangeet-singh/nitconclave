@@ -18,7 +18,6 @@ a{
                 height: 40px;
                 width: 100%;
                 z-index: 99999;
-                /*background: rgb(90, 86, 86);*/
             }
             
             #nav {
@@ -161,8 +160,7 @@ a{
 }
 .team
 {
-height:180%;
-  
+  height:180%;
   margin:0;
   z-index:9;
   position:relative;
@@ -506,7 +504,7 @@ height:180%;
 }
 .tcover
 {
-  background:rgba(209, 78, 0, 0.6);
+  background:#525C65;
 }
 
 #map-canvas
@@ -575,10 +573,7 @@ font-size:72px;
 top:20%;
 color:#fff;
 }
-.team
-{
-  background:url('http://backgrounds-free.com/highresolution/l_187.png');
-}
+
 #loading-page{
   
   background-image:-webkit-radial-gradient(#2D2E46, #2D281F);
@@ -697,36 +692,71 @@ text-align:center;
 list-style:none;
 display:inline-block;
 position:relative;
-width:200px;
-height:200px;
 background:white;
 border-radius:50%;
 margin-right:5%;
 }
 
+#left{
+  margin-left: 5%;
+  margin-right: 0%;
+}
+
+.mentor{
+  width: 225px;
+  height: 225px;
+}
+
+.mentor-text{
+  margin-top: 10px;
+}
+
+#advisor {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.org{
+  width:200px;
+  height:200px;
+}
+
 .row-one
 {
-
-top:7%;
+  top:7%;
 }
 .row-two
 {
-top:40%;
+  top:35%;
 }
 
 .row-three
 {
+  top:56%;
+}
 
-top:70%;
+.row-four
+{
+  top:75%;
+}
+
+.row-four ul{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team-tex{
 
 text-align: center;
 font-size: 3em;
 color:white;
-font-family:Arial;
+font-family:'Allerta', sans-serif;
 position:relative;
-top:-60px;
+top: -30px;
+text-transform: uppercase;
 }
 .team-sch{
 
@@ -741,75 +771,34 @@ list-style: none;
 
 .row-one li:nth-child(1)
 {
-background-image:url('images/Jay Bulani.jpg');
-background-position: -30px -80px;
-background-size: 350px 410px;
+background-image:url('images/anand.jpg');
 }
-.row-one li:nth-child(2)
-{
-background-image:url('images/Himanshu Sharma Co Convener Web and Marketing.jpg');
-background-position: -140px -60px;
-background-size: 420px 420px;
+.row-two li:nth-child(1){
+  background-image: url('images/soham.jpg');
 }
-.row-one li:nth-child(3)
-{
-background-image:url('images/Monarchlakhanpal.JPG');
-background-position: -50px -5px;
-background-size: 250px 270px;
+.row-two li:nth-child(2){
+  background-image: url('images/saswat.jpg');
 }
-.row-one li:nth-child(4)
-{
-background-image:url('images/Nikunj Garg Co Convener(Finance).jpg');
-background-position: -130px -85px;
-background-size: 450px 470px;
+.row-three li:nth-child(1){
+  background-image: url('images/mehul.jpg');
 }
-.row-two li:nth-child(1)
-{
-background-image:url('images/Sahil Kumar Co Convener Hospitality (2).jpg');
-background-position: -230px -154px;
-background-size: 750px 550px;
+.row-three li:nth-child(2){
+  background-image: url('images/abhratej.jpg');
 }
-.row-two li:nth-child(2)
-{
-background-image:url('images/Neha Mishra Head Marketing.jpg');
-background-position: -40px 0px;
-background-size: 300px 300px;
+.row-three li:nth-child(3){
+  /*background-image: url('images/mehul.jpg');*/
 }
-.row-two li:nth-child(3)
-{
-background-image:url('images/Kanwar gaurav Head Hospitality (2).jpg');
-background-position: -10px -15px;
-background-size: 250px 270px;
+.row-three li:nth-child(4){
+  background-image: url('images/payal.jpg');
 }
-.row-two li:nth-child(4)
-{
-background-image:url('images/Sahil Pareek Head,Event Management.jpg');
-background-position: -55px -35px;
-background-size: 452px 370px;
+.row-four li:nth-child(1){
+  background-image: url('images/anup.jpg');
 }
-.row-three li:nth-child(1)
-{
-background-image:url('images/Shubham Sharma Head Event Management.jpg');
-background-position: -30px -5px;
-background-size: 250px 270px;
+.row-four li:nth-child(2){
+  background-image: url('images/yusuf.jpg');
 }
-.row-three li:nth-child(2)
-{
-background-image:url('images/Richra Gandhi Head Hospitality.jpeg');
-background-position: -20px -5px;
-background-size: 250px 270px;
-}
-.row-three li:nth-child(3)
-{
-background-image:url('images/DSCN0195.JPG');
-background-position: -100px -85px;
-background-size: 350px 370px;
-}
-.row-three li:nth-child(4)
-{
-background-image:url('images/Nikunj Garg Co Convener(Finance).jpg');
-background-position: -50px -5px;
-background-size: 250px 270px;
+.row-four li:nth-child(3){
+  background-image: url('images/sangeet.jpg');
 }
 .designation
 {
@@ -821,23 +810,44 @@ left:0;
 top:220px;
 position:relative;
 text-decoration: none;
+display: inline-block;
 }
-.credit a
+
+.designation-advisor{
+  margin-top: 40px;
+}
+
+.designation-mentor{
+  margin-top: 18px;
+}
+
+.designation-org{
+  margin-top: -4px;
+}
+.credit p
 {
-display:inline-block;
+width:40%;
 height:15px;
-line-height:15px;
-color:#fff;
+line-height:40px;
+color:#eee;
 font-family:'Open Sans','Arial';
+}
+#credit-left{
+  margin-left: 20px;
+  float: left;
+}
+#credit-right{
+  text-align: right;
+  margin-right: 20px;
+  float: right;
 }
 .credit
 {
-font-size:12px;
+font-size:11px;
 position:absolute;
 z-index:999;
 width:100%;
-height:25px;
-text-align:center;
+height:40px;
 font-family:'Open Sans','Oswald','Lato','Arial';
 background:#252525;
 color:#fff;
@@ -922,10 +932,9 @@ background-position: -50px -5px;
 background-size: 300px 300px;
 }
 
-.
+.team
 {
-height:180%;
-  
+  height:250%;  
   margin:0;
   z-index:9;
   position:relative;
