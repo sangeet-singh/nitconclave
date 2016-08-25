@@ -153,7 +153,6 @@ a{
 .about,.events,.schedule,.sponsors,.gallery
 {
   height:150%;
-  
   margin:0;
   z-index:9;
   position:relative;
@@ -231,12 +230,20 @@ a{
   color:#fff;
   letter-spacing:0;
   font-size:24px;
-  
   font-weight:300;
   position:absolute;
   text-align:center;
   left:10%;
   bottom:-40px;
+  width:80%;
+  height:40%;
+}
+#tagline-logo{
+  display:block;
+  position:absolute;
+  text-align:center;
+  left:10%;
+  bottom:-75px;
   width:80%;
   height:40%;
 }
@@ -504,7 +511,7 @@ a{
 }
 .tcover
 {
-  background:#525C65;
+  background:#F9690E;
 }
 
 #map-canvas
@@ -535,23 +542,16 @@ a{
   width:100%;
   height:100%;
 }
-.gcover
+.schedule
 {
-  background-image:-webkit-linear-gradient(#2e2a29,#2e2a29);
+  background-color: #fefef2;
+  color:#3c90be;
 }
 .lcover
 {
-  
-  background:rgba(100, 52, 26, 0.9);
+  background:#E4F1FE;
 }
-.location
-{
-  background-image:url('http://www.iconsfind.com/wp-content/uploads/2014/04/20140425_5359bfc590449.png');
-  background-repeat:repeat-x;
-  background-size:100px 200px;
-  background-position:center;
-}
-.gallery,.schedule,.speakers
+.gallery,.speakers
 {
   
   background-image:url('http://www.iconsfind.com/wp-content/uploads/2014/04/20140425_5359bfc590449.png');
@@ -1124,7 +1124,6 @@ body {
 }
 .tab-panels{
   margin:0;
-  
   width:80%;
   position:absolute;
   left:10%;
@@ -1132,8 +1131,7 @@ body {
   font-family:'Open Sans';
   text-align:center;
   font-weight:300;
-  color:rgba(0,0,0,0.9);
-  
+  color:#fff;
   top:200px; 
 }
 
@@ -1144,29 +1142,27 @@ body {
 .tab-panels ul li {
     list-style-type: none;
     display: inline-block;
-    background: #999;
+    background: #f2a334;
     margin: 0;
     padding: 3px 10px;
     border-radius: 10px 10px 0 0;
     color: #fff;
     font-weight: 20;
     cursor: pointer;
-
-
 }
 .tab-panels ul li:hover {
     color: #fff;
-    background: #666;
+    background: #f2a334;
 }
 
 .tab-panels ul li.active {
     color: #fff;
-    background: #666;
+    background: #f37b20;
 }
 
 .tab-panels .panel {
     display:none;
-    background: #e8e7e7;
+    background: #F9690E;
     padding: 30px;
     border-radius: 0 0 10px 10px;
 }
@@ -1175,32 +1171,51 @@ body {
     display:block;
 }
 
-table{
-  margin-left: 30px;
+.table{
+  margin-right: auto;
+  margin-left : auto;
   border-collapse: collapse;
-  width: 100%;
-  font-size: 1.2em;
-  
+  width: 80%;
+  font-family: arial;
+  display: table;
 }
-th{
-  text-align: center;
-   padding: 5px 5em  5px 0.5em;
-   background-color: #ffc;
-   border-top: 1px solid #FB7A31;
-   border-bottom: 1px solid #FB7A31;
-}
-td{
-  text-align: left;
- padding: 3px;
- padding: 5px 2em  2px 0.5em;
-  border-bottom:  solid 1px #ccc;
-  color: white;
 
+.th{
+  background-color: #F9690E;
+  color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  display: block;
 }
+.th1{
+  width: 209%;
+}
+.th2{
+  width: 188%;
+}
+.th3{
+  width: 192%;
+}
+.td{
+  font-size: 14px;
+  padding: 10px;
+  background-color: #fa8840;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.schedule-a{
+  text-align: center;
+  color: #fa8840;
+  display: block;
+  text-decoration: none;
+}
+
 #list{
   list-style: none;
   position: absolute;
-  
   float: right;
 }
 #list li{
@@ -1215,10 +1230,37 @@ td{
 }
 .sch-text{
     text-align: center;
-color:white;
+color:#F9690E;
 font-size: 3em;
 font-family:Arial;
 position:relative;
 top:40px;
 z-index: 999; 
+}
+
+.logo{
+  padding-top: 100px;
+}
+
+.grid-container {
+  width : 100%;
+  margin-top: 100px;
+}
+
+.roww:before, 
+.roww:after {
+  margin-top: 150px;
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+.grid-container *{
+  box-sizing: border-box; 
+}
+
+.col-3{
+  float: left;
+  min-height: 1px; 
+  width: 33.3%;
 }
